@@ -56,8 +56,29 @@ body {
 #photo {
   margin-bottom: 50px;
 }
-h1 {
+#photo h1 {
   margin-bottom: 0;
+}
+
+#profile {
+  background-color: #6e6e6e;
+  background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+#profile h1 {
+  font-family: "Klee One", cursive;
+  margin-bottom: 5%;
+}
+#profile h1,
+h2 {
+  text-align: center;
+}
+#profile img {
+  margin: 2%;
+}
+
+.images {
+  text-align: center;
 }
 
 #about {
